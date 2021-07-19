@@ -1,0 +1,47 @@
+package medium;
+
+public class class_project {
+
+	public static void main(String[] args) {
+	
+		Employee emp = new Employee();
+		
+		System.out.print("  Name  ");
+		System.out.print("    Year Of Joining  ");
+		System.out.println("  Address  ");
+		System.out.print("  "+emp.name1+"  ");
+		System.out.print("  "+emp.joinyear1+"  ");
+		System.out.println("             "+emp.address1+"  ");
+		System.out.print("  "+emp.name2+"  ");
+		System.out.print("     "+emp.joinyear2+"  ");
+		System.out.println("             "+emp.address2+"  ");
+		System.out.print("  "+emp.name3+"  ");
+		System.out.print("    "+emp.joinyear3+"  ");
+		System.out.print("             "+emp.address3+"");
+		
+		
+		
+
+	}
+
+}
+
+
+
+ class Employee {
+	
+	String name1="Robert";
+	String name2="Sam";
+	String name3="John";
+	
+	
+	int joinyear1 = 1994;
+	int joinyear2=2000;
+	int joinyear3=1999;
+	
+	
+	String address1="64C-WallsStreet";
+	String address2="68D-WallsStreet";
+	String address3="26B-WallsStreet";
+	
+}
